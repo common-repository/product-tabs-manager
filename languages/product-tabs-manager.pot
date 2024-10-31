@@ -1,0 +1,759 @@
+# Copyright (C) 2024 PluginEver
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Tabs Manager 1.0.6\n"
+"Report-Msgid-Bugs-To: https://pluginever.com/support/\n"
+"POT-Creation-Date: 2024-10-22 12:01:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/Admin/Actions.php:49
+msgid "General settings updated successfully."
+msgstr ""
+
+#: includes/Admin/Actions.php:98
+msgid "Default tabs updated successfully."
+msgstr ""
+
+#: includes/Admin/Actions.php:139
+msgid "Failed to Add Category Showcase: Please Try Again!"
+msgstr ""
+
+#: includes/Admin/Actions.php:197
+msgid "Tab is added successfully."
+msgstr ""
+
+#: includes/Admin/Actions.php:214 includes/Admin/Actions.php:264
+msgid "No, search term provided."
+msgstr ""
+
+#: includes/Admin/Actions.php:316
+msgid "No, user name provided."
+msgstr ""
+
+#: includes/Admin/Admin.php:89
+msgid "Select categories"
+msgstr ""
+
+#: includes/Admin/Admin.php:90
+msgid "Select products"
+msgstr ""
+
+#: includes/Admin/Admin.php:91
+msgid "Select user role"
+msgstr ""
+
+#: includes/Admin/Admin.php:111
+#. translators: 1: Plugin name 2: WordPress
+msgid ""
+"Thank you for using %1$s. If you like it, please leave us a %2$s rating. A "
+"huge thank you from PluginEver in advance!"
+msgstr ""
+
+#: includes/Admin/Admin.php:113
+msgid "Thanks :)"
+msgstr ""
+
+#: includes/Admin/Admin.php:131
+#. translators: 1: Plugin version
+msgid "Version %s"
+msgstr ""
+
+#: includes/Admin/Menus.php:37 includes/Admin/Menus.php:38
+msgid "WC Tab Manager"
+msgstr ""
+
+#: includes/Admin/Menus.php:48 includes/Admin/Menus.php:49
+msgid "All Product Tabs"
+msgstr ""
+
+#: includes/Admin/Menus.php:56 includes/Admin/Menus.php:57
+#: includes/Admin/views/all-tabs-list.php:22
+#: includes/Admin/views/edit-product-tabs.php:27 includes/PostTypes.php:38
+#: includes/PostTypes.php:39
+msgid "Add New Tab"
+msgstr ""
+
+#: includes/Admin/Menus.php:65 includes/Admin/Menus.php:66
+#: lib/ByteKit/Traits/HasPlugin.php:255
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Menus.php:91
+msgid "General"
+msgstr ""
+
+#: includes/Admin/Menus.php:92
+#: includes/Admin/views/settings/default-tabs.php:18
+msgid "Default Tabs"
+msgstr ""
+
+#: includes/Admin/Menus.php:93
+msgid "Export / Import"
+msgstr ""
+
+#: includes/Admin/Menus.php:94 includes/Admin/views/edit-product-tabs.php:231
+#: includes/Admin/views/settings/default-tabs.php:114
+#: includes/Admin/views/settings/general.php:123
+#: lib/ByteKit/Traits/HasPlugin.php:216
+msgid "Documentation"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Product Tabs Manager"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:96
+msgid "No items found."
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:108
+#: includes/Admin/views/edit-product-tabs.php:45
+msgid "Title"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:109
+msgid "Visibility Type"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:110
+msgid "Visibility List"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:111
+msgid "Excluded Users"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:112
+msgid "Tabs Status"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:113
+msgid "Date Created"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:150
+#: includes/Admin/listTables/ProductTabsListTable.php:230
+#: includes/Admin/views/edit-product-tabs.php:198
+msgid "Delete"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:187
+#. translators: %d: number of things deleted.
+msgid "%d item deleted."
+msgid_plural "%d items deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:229
+msgid "Edit"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:255
+#: includes/Admin/views/settings/export-import.php:34
+msgid "Active"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:255
+msgid "Inactive"
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:287
+msgid "Show in all products."
+msgstr ""
+
+#: includes/Admin/listTables/ProductTabsListTable.php:301
+msgid "No users excluded."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Tailor your WooCommerce product tabs effortlessly with our customizable "
+"plugin."
+msgstr ""
+
+#: includes/Admin/views/all-tabs-list.php:31
+msgid "Search"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:17
+msgid "Add Product Tab"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:19
+msgid "Edit Product Tab"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:23
+msgid "Back"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:37
+msgid "Tab Title & Description"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:39
+msgid "Add tab title and description"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:47
+msgid "Add tab title..."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:51
+msgid "Content Type"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:54
+msgid "General Content"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:55
+msgid "Question/Answer ( Upgrade to PRO )"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:56
+msgid "Product List ( Upgrade to PRO )"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:61 includes/Helpers.php:160
+#: includes/Helpers.php:164
+msgid "Description"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:82
+msgid "Tab Additional Settings"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:84
+msgid "Add tab additional settings."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:90
+msgid "Disable This tab"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:91
+msgid ""
+"Toggle this switch to deactivate the selected tab on the product page. When "
+"disabled, this tab will not be visible to customers, allowing you to "
+"control the content displayed."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:103
+msgid "Tab Visible Type "
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:104
+msgid ""
+"Choose how this tab should be shown: 'All Products' will display it "
+"everywhere, 'Specific Products' lets you select individual products, and "
+"'Specific Categories' allows you to show the tab for certain categories "
+"only. Pick the option that fits your needs."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:108
+msgid "All Products"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:109
+msgid "Specific Products ( Upgrade to PRO )"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:110
+#: includes/Admin/views/edit-product-tabs.php:133
+msgid "Specific Categories"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:117
+msgid "Specific Products"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:118
+msgid ""
+"Use this multi-select box to choose products that will be associated with "
+"this tab. You can search for products by name and select multiple products "
+"to include them in this tab."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:134
+msgid ""
+"Use this multi-select box to choose categories that will be associated with "
+"this tab. You can search for products by name and select multiple "
+"categories to include them in this tab."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:152
+msgid "Exclude Products"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:153
+#: includes/Admin/views/edit-product-tabs.php:164
+msgid ""
+"Choose the products you want to exclude this tab from. Use the multi-select "
+"box to search for and select multiple products. This tab will be hidden for "
+"the selected products."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:157
+msgid "Select Products"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:163
+msgid "Exclude Categories"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:168
+msgid "Select Categories"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:173
+#: includes/Admin/views/settings/general.php:44
+#: includes/Admin/views/settings/general.php:74
+#: templates/upgrade-to-pro.php:105
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:190
+#: includes/Admin/views/settings/default-tabs.php:93
+#: includes/Admin/views/settings/general.php:102
+msgid "Actions"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:196
+msgid "Publish"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:200
+#: includes/Admin/views/settings/default-tabs.php:98
+#: includes/Admin/views/settings/general.php:107
+msgid "Update"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:206
+#: includes/Admin/views/edit-product-tabs.php:214
+msgid "Add Icon"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:212
+msgid "Remove"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:220
+#: includes/Admin/views/settings/default-tabs.php:103
+#: includes/Admin/views/settings/general.php:112
+msgid "Need Any Help?"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:223
+#: includes/Admin/views/settings/default-tabs.php:106
+#: includes/Admin/views/settings/general.php:115
+msgid "Support team is here to assist you. Get help with any issues you might have."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:238
+#: includes/Admin/views/settings/default-tabs.php:121
+#: includes/Admin/views/settings/general.php:130
+msgid "Get Support"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:245
+#: includes/Admin/views/settings/default-tabs.php:128
+#: includes/Admin/views/settings/general.php:137
+msgid "Try Pro!"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:257
+#: includes/Admin/views/settings/default-tabs.php:140
+#: includes/Admin/views/settings/general.php:149
+#: templates/upgrade-to-pro.php:28
+msgid "Get Category visibility type."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:267
+#: includes/Admin/views/settings/default-tabs.php:150
+#: includes/Admin/views/settings/general.php:159
+#: templates/upgrade-to-pro.php:38
+msgid "Get Exclude Products Option"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:277
+#: includes/Admin/views/settings/default-tabs.php:160
+#: includes/Admin/views/settings/general.php:169
+#: templates/upgrade-to-pro.php:48
+msgid "Get Exclude Categories Option."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:287
+#: includes/Admin/views/settings/default-tabs.php:170
+#: includes/Admin/views/settings/general.php:179
+#: templates/upgrade-to-pro.php:58
+msgid "Get Exclude from user type option."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:297
+#: includes/Admin/views/settings/default-tabs.php:180
+#: includes/Admin/views/settings/general.php:189
+#: templates/upgrade-to-pro.php:68
+msgid "Disable default tabs globally."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:307
+#: includes/Admin/views/settings/default-tabs.php:190
+#: includes/Admin/views/settings/general.php:199
+#: templates/upgrade-to-pro.php:78
+msgid "Sort Tabs in Your Preferred Order."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:317
+#: includes/Admin/views/settings/default-tabs.php:200
+#: includes/Admin/views/settings/general.php:209
+#: templates/upgrade-to-pro.php:88
+msgid "Customize tabs from product admin page."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:327
+#: includes/Admin/views/settings/default-tabs.php:210
+#: includes/Admin/views/settings/general.php:219
+#: templates/upgrade-to-pro.php:98
+msgid "Disable tabs from product admin page."
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:337
+#: includes/Admin/views/settings/default-tabs.php:220
+#: includes/Admin/views/settings/general.php:229
+msgid "View Demo"
+msgstr ""
+
+#: includes/Admin/views/edit-product-tabs.php:354
+#: includes/Admin/views/settings/default-tabs.php:237
+#: includes/Admin/views/settings/general.php:246
+msgid "Upgrade To Pro!"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:20
+msgid "Limited Time Offer! PluginEver Halloween Sale: 30% OFF!!"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:27
+#. translators: 1.Offer Percentage, 2. Coupon Code.
+msgid ""
+"Spectacular Halloween Deal! Get %1$s on all premium plugins with code %2$s. "
+"Don't miss out — this offer vanishes soon! 👻"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:40
+msgid "Claim your discount!!"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:44
+msgid "Remind me later"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:48
+msgid "Never show this again!"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:52
+msgid "DISMISS"
+msgstr ""
+
+#: includes/Admin/views/notices/halloween.php:55
+msgid "Valid until November 10, 2024"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:20
+msgid "Enjoying Product Tabs Manager?"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:27
+#. translators: %1$s: Product Tabs Manager Pro link, %2$s: Coupon code.
+msgid ""
+"We hope you had a wonderful experience using %1$s. Please take a moment to "
+"show us your support by leaving a 5-star review on <a href=\"%2$s\" "
+"target=\"_blank\"><strong>WordPress.org</strong></a>. Thank you! 😊"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:39
+msgid "Sure, I'd love to help!"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:43
+#: includes/Admin/views/notices/upgrade.php:41
+msgid "Maybe later"
+msgstr ""
+
+#: includes/Admin/views/notices/review.php:47
+msgid "I've already left a review"
+msgstr ""
+
+#: includes/Admin/views/notices/upgrade.php:19
+msgid "Flash Sale Alert!"
+msgstr ""
+
+#: includes/Admin/views/notices/upgrade.php:25
+#. translators: %1$s: Product Tabs Manager Pro link, %2$s: Coupon code.
+msgid ""
+"Get access to %1$s with a <strong>20%% discount</strong> for the next "
+"<strong>72 hours</strong> only! Use coupon code %2$s at checkout. Hurry up, "
+"the offer ends soon."
+msgstr ""
+
+#: includes/Admin/views/notices/upgrade.php:37
+msgid "Upgrade now"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:14
+msgid "WooCommerce Product Tabs Manager"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:15
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:20
+msgid "Disable All Tabs:"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:26
+#: includes/Admin/views/settings/default-tabs.php:29
+msgid "Expand All"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:27
+#: includes/Admin/views/settings/default-tabs.php:30
+msgid "Close All"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:53
+msgid "Disable This Tab:"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:61
+#: includes/Admin/views/settings/default-tabs.php:56
+msgid "Done"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:67
+#: includes/Admin/views/settings/default-tabs.php:62
+msgid "Overwrite It:"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:74
+#: includes/Admin/views/settings/default-tabs.php:69
+msgid "Tab Title"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:83
+msgid "Tab Description"
+msgstr ""
+
+#: includes/Admin/views/products/product-tab-meta.php:85
+#: includes/Admin/views/settings/default-tabs.php:77
+msgid "Tab Heading"
+msgstr ""
+
+#: includes/Admin/views/settings/default-tabs.php:19
+#: includes/Admin/views/settings/general.php:15
+msgid ""
+"These default tabs will be applied to all products in your store, ensuring "
+"a consistent and streamlined presentation for your customers."
+msgstr ""
+
+#: includes/Admin/views/settings/default-tabs.php:27
+msgid "Customize Default Tabs"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:13
+msgid "Export / Import Tabs"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:14
+msgid ""
+"Easily export and import tab settings to backup configurations or transfer "
+"them between sites"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:22
+#: includes/Admin/views/settings/export-import.php:45
+#: includes/Admin/views/settings/export-import.php:58
+msgid "Export Tabs"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:26
+msgid "Select Option:"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:30
+msgid "All"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:38
+msgid "In-Active"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:62
+msgid "Upload CSV File:"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:70
+msgid "Import CSV"
+msgstr ""
+
+#: includes/Admin/views/settings/export-import.php:79
+msgid "Upcoming Pro Features"
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:14
+msgid "General Tabs"
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:23
+msgid "General Tab Settings"
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:28
+msgid "Enable Tabs Sorting:"
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:46
+msgid ""
+"Allow tabs to be reordered by dragging and dropping them. This lets you "
+"customize the tab sequence to suit your preference or needs."
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:58
+msgid "Disable Default Tabs:"
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:76
+msgid ""
+"Uncheck this to hide the standard tabs that come with the product, allowing "
+"you to create a more customized tab layout."
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:82
+msgid "Disable Description."
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:87
+msgid "Disable Additional Information."
+msgstr ""
+
+#: includes/Admin/views/settings/general.php:92
+msgid "Disable Reviews."
+msgstr ""
+
+#: includes/Helpers.php:176 includes/Helpers.php:180
+msgid "Additional Information"
+msgstr ""
+
+#: includes/Helpers.php:192 includes/Helpers.php:196
+msgid "Reviews"
+msgstr ""
+
+#: includes/PostTypes.php:40
+msgid "Edit Tab"
+msgstr ""
+
+#: includes/PostTypes.php:41
+msgid "View Tab"
+msgstr ""
+
+#: includes/PostTypes.php:42
+msgid "All Tabs"
+msgstr ""
+
+#: includes/PostTypes.php:43
+msgid "Search Tabs"
+msgstr ""
+
+#: includes/PostTypes.php:44
+msgid "Parent Tab:"
+msgstr ""
+
+#: includes/PostTypes.php:45
+msgid "No tabs found."
+msgstr ""
+
+#: includes/PostTypes.php:46
+msgid "No tabs found in trash."
+msgstr ""
+
+#: lib/ByteKit/Admin/Notices.php:130
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/ByteKit/Traits/HasPlugin.php:223
+msgid "Support"
+msgstr ""
+
+#: lib/ByteKit/Traits/HasPlugin.php:230
+msgid "Review"
+msgstr ""
+
+#: templates/upgrade-to-pro.php:17
+msgid "Unlock exclusive features with our"
+msgstr ""
+
+#: templates/upgrade-to-pro.php:17
+msgid "Pro version!"
+msgstr ""
+
+#: templates/upgrade-to-pro.php:103
+msgid "I’ll think about it later"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://pluginever.com/plugins/wc-tab-manager/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "PluginEver"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pluginever.com"
+msgstr ""
+
+#: includes/PostTypes.php:33
+msgctxt "post type general name"
+msgid "Product Tabs Manager"
+msgstr ""
+
+#: includes/PostTypes.php:34
+msgctxt "post type singular name"
+msgid "Product Tabs Manager"
+msgstr ""
+
+#: includes/PostTypes.php:35
+msgctxt "admin menu"
+msgid "Product Tabs Manager"
+msgstr ""
+
+#: includes/PostTypes.php:36
+msgctxt "add new on admin bar"
+msgid "Product Tabs"
+msgstr ""
+
+#: includes/PostTypes.php:37
+msgctxt "Add New Tab"
+msgid "Add New"
+msgstr ""
